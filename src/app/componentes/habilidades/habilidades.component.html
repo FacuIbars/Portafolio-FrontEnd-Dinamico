@@ -1,0 +1,8 @@
+<H1>habilidades</H1>
+<section class="habilidades" >
+    <mat-card  *ngFor="let habilidad of habilidades">
+        <mat-card-header> {{habilidad.name}} </mat-card-header>
+        <mat-card-content><mat-progress-bar @Input() value={{habilidad.skill}}>  </mat-progress-bar></mat-card-content>
+    </mat-card>
+</section>
+

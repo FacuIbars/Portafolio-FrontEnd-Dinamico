@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.centrado{
+    position: static;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+  
+  .rubik{
+    position: static;
+    text-align: center;
+    font-family: "Rubik Mono One";
+    font-weight: bold;
+    background-color: aqua;
+  }
+    body{
+      margin: 0;
+      background: rgb(247, 246, 246);
+      
+      
+  }
+  footer {
+    background: black;
+    padding: 20px 0;
+    color: var(whitesmoke);
+    margin-top: 40px;
+  }
+  
